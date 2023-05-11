@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Cormorant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Lobster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="images/OBJECTS.png">
+    <title>Pragametic Energy Pvt. Ltd</title>
+</head>
+
+<body>
+    <!-- small menu -->
+    <!-- <div class="container-fluid  sec-s-m-bg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  sec-ul-display" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link sec-li-small" href="#">Newsroom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sec-li-small" href="#">Where to Buy </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sec-li-small" href="#">Careers </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sec-li-small" href="#">Downloads </a>
+                        </li>
+
+                        <li>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control sec-mrnu-serch mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div> -->
+    <!-- header -->
+    <div class="container-fluid ">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html"><img src="images/Prega Logo 1.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse sec-ul-display " id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="#">About </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="#">Solutions </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="#">Projects </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="#">Why Solar </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" sec-btn-header-bggg">
+                    <a class="nav-link sec-li-small3" href="#">Talk To An Expert</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div class="container-fluid sec-hero-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="sec-hero-h">Bringing A New
+                        Dawn From Natural
+                        Resources To
+                        Natural Energy</h1>
+                    <p class="sec-hero-p">Our mission is to advance clean energy nationwide
+                        with turn key, cost-effective solar solutions.
+                    </p>
+                    <div class="sec-btn-header-bggg2">
+                        <a href="#" class="btn sec-li-small4  my-2 my-sm-0" type="submit">Talk To An Expert</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Brands -->
+    <div class="container pb-5">
+        <h2 class="sec-our-h">Our Brands</h2>
+
+        <div class="sec-our-display">
+            <div class="">
+                <img class="w-100 p-2" src="images/o1.png" alt="">
+            </div>
+            <div class="">
+                <img class=" w-100 p-2" src="images/o2.png" alt="">
+            </div>
+            <div class="">
+                <img class="w-100 p-2" src="images/o3.png" alt="">
+            </div>
+            <div class="">
+                <img class="w-100 p-2" src="images/o4.png" alt="">
+            </div>
+            <div class="">
+                <img class="w-100 p-2" src="images/o5.png" alt="">
+            </div>
+        </div>
+
+        <div class="sec-our-display">
+            <div class="">
+                <img class="w-100 p-2" src="images/o6.png" alt="">
+            </div>
+            <div class="">
+                <img class=" w-100 p-2" src="images/o7.png" alt="">
+            </div>
+            <div class="">
+                <img class="w-100 p-2" src="images/o8.png" alt="">
+            </div>
+            <div class="">
+                <img class="w-100 p-2" src="images/o9.png" alt="">
+            </div>
+            <div class="">
+                <img class="w-100 p-2" src="images/o10.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Solutions -->
+    <div class="container">
+        <h1 class="sec-sol-h">Our Solutions</h1>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="sec-solu-bg">
+                    <img class="w-100" src="images/sol1.png" alt="">
+                    <div class="p-4">
+                        <h3 class="sec-blo-h">Solar Panel</h3>
+                        <hr class="sec-hr">
+                        <p class="secblo-pp">Solar panels are a clean and renewable source of energy that can help
+                            reduce our dependence
+                            on fossil fuels.t</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sec-solu-bg">
+                    <img class="w-100" src="images/sol2.png" alt="">
+                    <div class="p-4">
+                        <h3 class="sec-blo-h">Solar Inverter</h3>
+                        <hr class="sec-hr">
+                        <p class="secblo-pp">Solar panels are a clean and renewable source of energy that can help
+                            reduce our dependence
+                            on fossil fuels.t</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sec-solu-bg">
+                    <img class="w-100" src="images/sol3.png" alt="">
+                    <div class="p-4">
+                        <h3 class="sec-blo-h">Solar Street Light</h3>
+                        <hr class="sec-hr">
+                        <p class="secblo-pp">Solar panels are a clean and renewable source of energy that can help
+                            reduce our dependence
+                            on fossil fuels.t</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mb-5  text-center mt-5">
+            <a href="#" class="btn sec-li-small44  my-2 my-sm-0" type="submit">Talk To An Expert</a>
+        </div>
+    </div>
+
+    <!-- How On Grid & Off Grid Works -->
+    <div class="container-fluid  sec-lat-bg">
+        <h1 class="sec-lat-h">How On Grid & Off Grid Works</h1>
+    </div>
+    <!-- How On Grid & Off Grid Works-1 -->
+    <div class="container-fluid pt-4 sec-lat-bg2 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/how-1.png" alt="">
+                    <p class="sec-lat-p">How On Grid Works</p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/how-2.png" alt="">
+                    <p class="sec-lat-p">How Off Grid Works</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- How On Grid & Off Grid Works-3 -->
+    <div class="container-fluid  sec-lat-bg-3">
+        <h1 class="sec-lat-h"></h1>
+    </div>
+    <!-- video-slider -->
+    <div class="container pt-5 pb-5   sec-video-marg">
+        <div class="owl-carousel owl-theme mx-auto">
+            <div class="item-video text-center">
+                <video width="60%" poster="images/video-img.png" controls>
+                    <source src="videos/video-1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="item-video text-center">
+                <video width="60%" poster="images/video-img.png" controls>
+                    <source src="videos/video-2.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer>
+        <!-- Have A Project In Mind -->
+        <div class="container-fluid  sec-footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h1 class="sec-f-h">Have A Project In Mind</h1>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="sec-btn-pad">
+                            <a href="#" class="sec-foot-btn">Contact Us Directly</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main-footer -->
+        <div class="container-fluid sec-footer-bg2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h1 class="sec-foote-hh">About Us</h1>
+                        <p class="sec-footee-pp">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                            <div class="sec-pade-icon">
+                                <h5 class="sec-foote-hh2">Follow Us</h5>
+                                <a href="#" class="sec-icon-fot"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="sec-icon-fot"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="sec-icon-fot"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="sec-icon-fot"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <!-- menu -->
+                        <div class="row pl-4">
+                            <div class="col-lg-4">
+                                <p class="m-0"><a href="#" class="sec-foot-men">About</a></p>
+                                <p class="m-o"><a href="#" class="sec-foot-men">  Solutions</a></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="m-0"><a href="#" class="sec-foot-men">Projects</a></p>
+                                <p class="m-o"><a href="#" class="sec-foot-men"> Why Solar</a></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="m-0"><a href="#" class="sec-foot-men">Contact</a></p>
+                                <p class="m-o"><a href="#" class="sec-foot-men"> Where to Buy</a></p>
+                            </div>
+                        </div>
+                        <div class="sec-pade-icon">
+                            <h1 class="sec-foote-hh">Get In Touch</h1>
+                        </div>
+                        <!-- address -->
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <p class="m-0 sec-foot-men">Office</p>
+                                <p class="m-0"><a href="tel:+91 9915755580" class="sec-foot-add">+91 99157 55580</a></p>
+                                <p class="m-0"><a href="tel:+91 9915755580" class="sec-foot-add">+91 99157 55580</a></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="m-0 sec-foot-men">Whatsapp</p>
+                                <p class="m-0"><a href="tel:+91 9915755580" class="sec-foot-add">+91 99157 55580</a></p>
+                               
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="m-0 sec-foot-men">Address</p>
+                                <p class="m-0"><a href="https://goo.gl/maps/LxWw5hoGKFdizwEM7" target="_blank" class="sec-foot-add">AS214, Grandcity Plaza. 
+                                    Phullawal Chowk, Pakhowal Road,
+                                    Ludhiana-141003</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            merge: true,
+            loop: true,
+            margin: 10,
+            video: true,
+            lazyLoad: true,
+            center: true,
+            responsive: {
+                480: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

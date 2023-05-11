@@ -1,0 +1,356 @@
+.sec-s-m-bg {
+    background: #F2F2F2;
+}
+
+.sec-mrnu-serch {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.nav-item .nav-link.sec-li-small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.nav-item .nav-link.sec-li-small2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #005DAA;
+}
+
+.nav-item .nav-link.sec-li-small2:hover {
+    color: #FF6326;
+}
+
+.sec-li-small3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    background: #FF6326;
+    border-radius: 20px 0px;
+
+}
+
+.sec-p-m {
+    padding: 0px 20px;
+}
+
+.sec-li-small3:hover {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    padding: 15px 35px;
+    background: #005DAA;
+    border-radius: 20px 0px;
+
+}
+
+.sec-ul-display {
+    display: flex;
+    justify-content: end;
+}
+
+.sec-hero-bg {
+    background-image: url(../images/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px 0px;
+}
+
+.sec-hero-h {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 123%;
+    padding-top: 50px;
+    color: #000000;
+}
+
+.sec-hero-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.sec-btn-header-bggg2 {
+    margin-bottom: 150px;
+}
+
+.sec-li-22 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.sec-li-small4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    background: #FF6326;
+    border-radius: 20px 0px;
+
+}
+
+.sec-li-small4:hover {
+    color: #FFFFFF !important;
+    background: #005DAA !important;
+}
+
+.sec-our-h {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 123%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.sec-our-display {
+    display: flex;
+}
+
+.sec-sol-h {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 123%;
+    color: #000000;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.sec-solu-bg {
+    background: #F4F4F4;
+}
+
+.sec-blo-h {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 123%;
+    color: #000000;
+    text-align: center;
+}
+
+.sec-hr {
+    background: #FF6326;
+    width: 20%;
+    text-align: center;
+    opacity: 1;
+    margin: auto;
+}
+
+.secblo-pp {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.sec-li-small44 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    background: #FF6326;
+    border-radius: 20px 0px;
+}
+
+.sec-li-small44:hover {
+    color: #FFFFFF !important;
+    background: #005DAA !important;
+}
+
+.sec-lat-bg {
+    background-image: url(../images/our-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 60px;
+}
+
+.sec-lat-h {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 123%;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 120px 0px 20px 0px;
+}
+
+.sec-lat-bg2 {
+    background-color: #BCEAFF;
+}
+
+.sec-lat-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 123%;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+}
+
+.sec-lat-bg-3 {
+    background-image: url(../images/how-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 125px 0px;
+}
+
+.sec-video-marg {
+    margin-top: -436px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #FF6326 !important;
+}
+
+/* --------footer---------- */
+.sec-footer-bg {
+    background: #0080EA;
+    padding: 20px 0px;
+}
+
+.sec-f-h {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+
+}
+
+.sec-btn-pad {
+    padding-top: 20px;
+}
+
+.sec-foot-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #FF6326;
+    padding: 15px 30px;
+}
+
+.sec-footer-bg2 {
+    background: #BCEAFF;
+    padding: 80px 40px;
+}
+
+.sec-foote-hh {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.sec-footee-pp {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.5%;
+    color: #000000;
+
+}
+
+.sec-pade-icon {
+    padding-top: 70px;
+}
+
+.sec-foote-hh2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.sec-icon-fot {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 167%;
+    letter-spacing: 0.405em;
+    color: #000000;
+
+}
+
+.sec-foot-men {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 190%;
+    color: #000000;
+    padding-bottom: 10px;
+
+}
+
+.sec-foot-add {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 179%;
+    color: #000000;
+
+}
