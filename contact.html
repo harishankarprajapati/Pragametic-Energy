@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Cormorant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Lobster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="images/OBJECTS.png">
+    <title>Pragametic Energy Pvt. Ltd</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-fluid ">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html"><img src="images/Prega Logo 1.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse sec-ul-display " id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="about.html">About </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="Solutions.html">Solutions </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="Projects.html">Projects </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="why-solar.html">Why Solar </a>
+                        </li>
+                        <li class="nav-item sec-p-m">
+                            <a class="nav-link sec-li-small2" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" sec-btn-header-bggg">
+                    <a class="nav-link sec-li-small3" href="#">Talk To An Expert</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+     <!-- whatsapp -->
+     <div class="floating_btn">
+        <a target="_blank" href="https://wa.me/9915755580">
+          <div class="contact_icon">
+            <i class="fa-brands fa-whatsapp "></i>
+          </div>
+        </a>
+        <p class="text_icon">Talk to us?</p>
+      </div>
+
+    <!-- ifram-map -->
+    <div class="container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5759.436241390474!2d75.80716637787343!3d30.870396135532268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a83e7fc6757a3%3A0x3a3da6a2475f2f3!2sPragmatic%20incorporation!5e0!3m2!1sen!2sin!4v1683792617776!5m2!1sen!2sin"
+            class="sec-map" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- address -->
+    <div class="container sec-cont-marg">
+        <div class="row ">
+            <div class="col-lg-4 ">
+                <div class="sec-desp">
+                <div class="sec-icon-bg">
+                    <i class="fa-solid fa-phone  sec-cin-icon"></i>
+                </div>
+                </div>
+                <h2 class="sec-cont-h">Office</h2>
+                <p class="text-center m-0"><a href="tel:+91 9915755580" class="seccont-pp">+91 99157 55580</a></p>
+                <p class="text-center m-0"><a href="tel:+91 9915755580" class="seccont-pp">+91 99157 55580</a></p>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="sec-desp">
+                <div class="sec-icon-bg">
+                    <i class="fa-solid fa-location-dot  sec-cin-icon"></i>
+                </div>
+                </div>
+                <h2 class="sec-cont-h">Address</h2>
+                <p class="text-center m-0"><a href="https://goo.gl/maps/LxWw5hoGKFdizwEM7" target="_blank" class="seccont-pp">AS214, Grandcity Plaza. 
+                    Phullawal Chowk, Pakhowal Road,
+                    Ludhiana-141003</a></p>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="sec-desp">
+                <div class="sec-icon-bg">
+                    <i class="fa-solid fa-envelope sec-cin-icon"></i>
+                </div>
+                </div>
+                <h2 class="sec-cont-h">Email</h2>
+                <p class="text-center m-0"><a href="mailto: pragmaticincorporation2@gmail.com" class="seccont-pp">pragmaticincorporation2@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="container">
+        <h1 class="sec-form-hh">Do you have a question?<br>
+            Feel free to contact</h1>
+
+            <form class="sec-contact-form">
+                <div class="container">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="First Name*" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name*" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="inputPassword4" placeholder="Email*" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="number" class="form-control" id="inputPassword4" placeholder="Phone*" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea class="form-control form-control-lg mb-3" rows="3" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn sec-menu-btn2">Send Message</button>
+                    </div>
+                </div>
+            </form>
+    </div>
+
+
+
+    
+<!-- footer -->
+<footer>
+    <!-- Have A Project In Mind -->
+    <div class="container-fluid  sec-footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h1 class="sec-f-h">Have A Project In Mind</h1>
+                </div>
+                <div class="col-lg-5">
+                    <div class="sec-btn-pad">
+                        <a href="#" class="sec-foot-btn">Contact Us Directly</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main-footer -->
+    <div class="container-fluid sec-footer-bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1 class="sec-foote-hh">About Us</h1>
+                    <p class="sec-footee-pp">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="sec-pade-icon">
+                            <h5 class="sec-foote-hh2">Follow Us</h5>
+                            <a href="#" class="sec-icon-fot"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="sec-icon-fot"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="sec-icon-fot"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="sec-icon-fot"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                </div>
+                <div class="col-lg-8">
+                    <!-- menu -->
+                    <div class="row pl-4">
+                        <div class="col-lg-4">
+                            <p class="m-0"><a href="#" class="sec-foot-men">About</a></p>
+                            <p class="m-o"><a href="#" class="sec-foot-men">  Solutions</a></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="m-0"><a href="#" class="sec-foot-men">Projects</a></p>
+                            <p class="m-o"><a href="#" class="sec-foot-men"> Why Solar</a></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="m-0"><a href="#" class="sec-foot-men">Contact</a></p>
+                            <p class="m-o"><a href="#" class="sec-foot-men"> Where to Buy</a></p>
+                        </div>
+                    </div>
+                    <div class="sec-pade-icon">
+                        <h1 class="sec-foote-hh">Get In Touch</h1>
+                    </div>
+                    <!-- address -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p class="m-0 sec-foot-men">Office</p>
+                            <p class="m-0"><a href="tel:+91 9915755580" class="sec-foot-add">+91 99157 55580</a></p>
+                            <p class="m-0"><a href="tel:+91 9915755580" class="sec-foot-add">+91 99157 55580</a></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="m-0 sec-foot-men">Whatsapp</p>
+                            <p class="m-0"><a href="tel:+91 9915755580" class="sec-foot-add">+91 99157 55580</a></p>
+                           
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="m-0 sec-foot-men">Address</p>
+                            <p class="m-0"><a href="https://goo.gl/maps/LxWw5hoGKFdizwEM7" target="_blank" class="sec-foot-add">AS214, Grandcity Plaza. 
+                                Phullawal Chowk, Pakhowal Road,
+                                Ludhiana-141003</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
