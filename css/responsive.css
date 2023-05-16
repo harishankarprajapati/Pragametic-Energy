@@ -50,10 +50,10 @@
         padding: 20px 0px !important;
     }
     a.navbar-brand {
-        max-width: 80%  !important;
+        max-width: 72%  !important;
     }
     a.navbar-brand img {
-        width: 80%;
+        width: 100%;
     }
     .sec-ul-display {
         display: block;
