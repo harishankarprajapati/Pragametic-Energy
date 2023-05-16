@@ -562,6 +562,15 @@ a {
     width: 96%;
     height: 75px;
 }
+.sec-bef2::before {
+    content: "";
+    background-image: url(../images/befor.png);
+    position: absolute;
+    top: 166px;
+    left: 5px;
+    width: 99%;
+    height: 75px;
+}
 
 .sec-proj-bg {
     background-image: url(../images/prog-bg.png);
