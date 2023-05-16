@@ -1,4 +1,3 @@
-
 /* -------1200--------- */
 
 @media (min-width: 1200px) {
@@ -11,4 +10,104 @@
         max-width: 1500px !important;
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------1024------------- */
+@media only screen and (max-width: 1024px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------767------------ */
+@media only screen and (max-width: 767px) {
+    a.navbar-brand {
+        max-width: 80%  !important;
+    }
+    a.navbar-brand img {
+        width: 80%;
+    }
+    .sec-ul-display {
+        display: block;
+    }
+    .sec-btn-header-bggg {
+        display: none;
+    }
+    li.nav-item.dropdown {
+        padding-left: 20px;
+    }
+    .sec-hero-h {
+        font-size: 40px;
+        line-height: 123%;
+    }
+    .sec-hero-bg {
+        padding: 0px 0px;
+    }
+    .sec-btn-header-bggg2 {
+        margin-bottom: 25px;
+    }
+    .sec-our-display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sec-our-h {
+        font-size: 27px;
+        padding-top: 30px;
+    }
+    .sec-sol-h {
+        font-size: 44px;
+        padding: 22px 0px;
+    }
+    .sec-lat-h {
+        font-size: 34px;
+        padding: 67px 0px 20px 0px;
+    }
+    .sec-lat-bg {
+        padding-top: 10px;
+    }
+    .sec-f-h {
+        font-size: 32px;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-btn-pad {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .sec-foot-btn {
+        font-size: 18px;
+        color: #FFFFFF !important;
+    }
+    .sec-footer-bg2 {
+        padding: 40px 20px;
+    }
+    .sec-pade-icon {
+        padding-top: 10px;
+    }
+    
+    
 }
