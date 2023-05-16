@@ -830,3 +830,31 @@ color: #000000;
     padding: 189px 0px;
     margin-top: 20px;
 }
+.sec-sol-plant-bg{
+    background-image: url(../images/Solar-Power-Plant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0px;
+    margin-top: 20px;
+}
+.sec-sol-water-bg{
+    background-image: url(../images/Solar-Water-Pump-bgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0px;
+    margin-top: 20px;
+}
+.sec-pet-pump-bg{
+    background-image: url(../images/pet-pump.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0px;
+    margin-top: 20px;
+}
+.sec-water-hea-bg{
+    background-image: url(../images/Solar-water-heater-bgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0px;
+    margin-top: 20px;
+}
