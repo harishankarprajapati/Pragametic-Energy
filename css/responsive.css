@@ -44,6 +44,11 @@
 
 /* --------------767------------ */
 @media only screen and (max-width: 767px) {
+    .sec-hero-bg {
+        background-image: none;
+        background-color: #BCEAFF;
+        padding: 20px 0px !important;
+    }
     a.navbar-brand {
         max-width: 80%  !important;
     }
@@ -62,6 +67,7 @@
     .sec-hero-h {
         font-size: 40px;
         line-height: 123%;
+        padding-top: 15px;
     }
     .sec-hero-bg {
         padding: 0px 0px;
