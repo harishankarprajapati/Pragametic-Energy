@@ -823,3 +823,10 @@ color: #000000;
 .sec-video-w{
     width: 60%;
 }
+.sec-howw-bg{
+    background-image: url(../images/how-bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0px;
+    margin-top: 20px;
+}

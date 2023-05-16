@@ -96,7 +96,7 @@
         padding-top: 10px;
     }
     .sec-f-h {
-        font-size: 32px;
+        font-size: 24px;
         text-align: center;
         margin: 0;
     }
@@ -117,5 +117,39 @@
     .sec-video-w{
         width: 100%;
     }
-    
+    /* ------------- */
+    .sec-about-bg , .sec-sol-bg , .sec-why-bg {
+        padding: 26px 0px;
+    }
+    /* ------------ */
+    .sec-all-padig{
+        padding: 10px  !important;
+    }
+    .sec-aboy-her {
+        font-size: 40px;
+    }
+    .sec-img-text-p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        padding-right: 0px;
+    }
+   
+    .sec-abut-last-p {
+        font-size: 17px;
+        line-height: 29px;
+        padding: 30px 10px;
+    }
+    .sec-solu-bg {
+        background: #F4F4F4;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .sec-blo-h {
+        font-size: 22px;
+    }
+    .secblo-pp {
+        font-size: 16px;
+        padding-top: 10px;
+    }
 }
