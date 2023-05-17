@@ -11,16 +11,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: scale 1.5s linear infinite;
 }
 
 .loader > img {
-    width: 100px;
+    width: 40%;
 }
 
 .loader.hidden {
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
 }
+
 
 @keyframes fadeOut {
     100% {
@@ -34,6 +36,7 @@
     border: 1px solid black;
     margin: 10px;
 }
+
 
 /* loading */
 
