@@ -858,6 +858,13 @@ color: #000000;
     padding: 189px 0px;
     margin-top: 20px;
 }
+.sec-s-light-bg{
+    background-image: url(../images/s-light-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0px;
+    margin-top: 20px;
+}
 ul.navbar-nav li.nav-item.dropdown:hover  ul.dropdown-menu { display: block; }
 
 ul.dropdown-menu2:hover{ display: block; }
