@@ -61,6 +61,10 @@
     <link rel="icon" href="images/OBJECTS.png">
     <title>Pragametic Energy Pvt. Ltd</title>
 </head>
+<!-- loading -->
+<div class="loader ">
+    <img src="images/logo-unscreen.gif" alt="Loading..." />
+</div>
 <!-- header -->
    <div include-html="header.html"  id="header-file"></div>
     
@@ -150,6 +154,13 @@
                     (t = a.find(r)).length && t.removeClass("show")
             })
     }()
+</script>
+</script>
+<script>
+    window.addEventListener("load", function () {
+const loader = document.querySelector(".loader");
+loader.className += " hidden"; // class "loader hidden"
+});
 </script>
 
 <script src="js/jquery-3.6.0.min.js"></script>
