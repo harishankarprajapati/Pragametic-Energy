@@ -231,4 +231,7 @@
         font-size: 17px;
         line-height: 170%;
     }
+    .loader > img {
+        width: 90%;
+    }
 }
