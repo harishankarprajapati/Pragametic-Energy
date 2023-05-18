@@ -22,7 +22,107 @@
 
 
 /* -------------1024------------- */
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+    a.navbar-brand {
+        max-width: 72% !important;
+    }
+
+    a.navbar-brand img {
+        width: 300px;
+    }
+    .sec-p-m {
+        padding: 0px 1px;
+    }
+    .sec-btn-header-bggg {
+        display: none;
+    }
+    .nav-item .nav-link.sec-li-small2 {
+       
+        font-size: 18px;
+    }
+    .sec-hero-h {
+        font-size: 40px;
+    }
+    .sec-blo-h {
+        font-size: 28px;
+    }
+    .secblo-pp {
+        font-size: 16px;
+    }
+    .sec-solu-bg {
+        background: #F4F4F4;
+        height: 600px;
+    }
+    .sec-lat-bg {
+        padding-top: 10px;
+    }
+    .sev-serv-btn{
+        margin: 10px !important;
+    }
+    .sec-lat-h {
+        font-size: 37px;
+        padding: 120px 0px 20px 0px;
+    }
+    .sec-rev-p2 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .sec-f-h {
+        font-size: 40px;
+    }
+    .sec-img-text-p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+    .sec-abut-last-p {
+        font-size: 19px;
+        line-height: 35px;
+        padding: 25px 50px;
+    }
+    .sec-footer-bg2 {
+        background: #BCEAFF;
+        padding: 60px 20px;
+    }
+    /* ---------- */
+    .sec-about-bg,
+    .sec-sol-bg,
+    .sec-why-bg,
+    .sec-sol-plant-bg,
+    .sec-s-light-bg,
+    .sec-sol-water-bg,
+    .sec-pet-pump-bg,
+    .sec-water-hea-bg,
+    .sec-howw-bg {
+        padding: 106px 0px;
+    }
+    .sec-slor-p {
+        font-size: 18px;
+        line-height: 190%;
+    }
+    .sec-slor-p2 {
+        font-size: 22px;
+        line-height: 134%;
+    }
+    .sec-prog-wp {
+        font-size: 40px;
+    }
+    .border-sec img {
+        width: 100%;
+    }
+    .sec-slo-ph {
+        font-size: 22px;
+    }
+    .sec-punj-h {
+        font-size: 30px;
+    }
+    .sec-punj-p {
+        font-size: 18px;
+        line-height: 166%;
+    }
+    .seccont-pp {
+        word-break: break-all;
+    }
+}
 
 
 
