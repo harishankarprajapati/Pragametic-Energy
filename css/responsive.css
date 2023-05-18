@@ -30,59 +30,75 @@
     a.navbar-brand img {
         width: 300px;
     }
+
     .sec-p-m {
         padding: 0px 1px;
     }
+
     .sec-btn-header-bggg {
         display: none;
     }
+
     .nav-item .nav-link.sec-li-small2 {
-       
+
         font-size: 18px;
     }
+
     .sec-hero-h {
         font-size: 40px;
     }
+
     .sec-blo-h {
         font-size: 28px;
     }
+
     .secblo-pp {
         font-size: 16px;
     }
+
     .sec-solu-bg {
         background: #F4F4F4;
         height: 600px;
     }
+
     .sec-lat-bg {
         padding-top: 10px;
     }
-    .sev-serv-btn{
+
+    .sev-serv-btn {
         margin: 10px !important;
     }
+
     .sec-lat-h {
         font-size: 37px;
         padding: 120px 0px 20px 0px;
     }
+
     .sec-rev-p2 {
         font-size: 18px;
         line-height: 23px;
     }
+
     .sec-f-h {
         font-size: 40px;
     }
+
     .sec-img-text-p {
         font-size: 19px;
         line-height: 32px;
     }
+
     .sec-abut-last-p {
         font-size: 19px;
         line-height: 35px;
         padding: 25px 50px;
     }
+
     .sec-footer-bg2 {
         background: #BCEAFF;
         padding: 60px 20px;
     }
+
     /* ---------- */
     .sec-about-bg,
     .sec-sol-bg,
@@ -95,30 +111,38 @@
     .sec-howw-bg {
         padding: 106px 0px;
     }
+
     .sec-slor-p {
         font-size: 18px;
         line-height: 190%;
     }
+
     .sec-slor-p2 {
         font-size: 22px;
         line-height: 134%;
     }
+
     .sec-prog-wp {
         font-size: 40px;
     }
+
     .border-sec img {
         width: 100%;
     }
+
     .sec-slo-ph {
         font-size: 22px;
     }
+
     .sec-punj-h {
         font-size: 30px;
     }
+
     .sec-punj-p {
         font-size: 18px;
         line-height: 166%;
     }
+
     .seccont-pp {
         word-break: break-all;
     }
@@ -139,7 +163,66 @@
 
 @media (min-width: 768px) {
     .sec-ul-display {
-        display:block;
+        display: block;
+    }
+
+    .sec-video-w {
+        width: 100%;
+    }
+
+    .sec-f-h {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sec-btn-pad {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .sec-footer-bg2 {
+        background: #BCEAFF;
+        padding: 40px 20px;
+    }
+
+    .sec-pade-icon {
+        padding-top: 25px;
+    }
+
+    .sec-blo-h {
+        font-size: 20px;
+    }
+
+    .sec-rev-h {
+        font-size: 20px;
+    }
+
+    .sec-slder-bg-rev {
+        padding: 55px 10px 30px 10px;
+    }
+
+    .sec-bef::before {
+        content: "";
+        background-image: url(../images/befor.png);
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 166px;
+        background-size: cover;
+        left: -15px;
+        width: 100%;
+        height: 75px;
+    }
+
+    .sec-about-bg,
+    .sec-sol-bg,
+    .sec-why-bg,
+    .sec-sol-plant-bg,
+    .sec-s-light-bg,
+    .sec-sol-water-bg,
+    .sec-pet-pump-bg,
+    .sec-water-hea-bg,
+    .sec-howw-bg {
+        padding: 70px 0px;
     }
 }
 
@@ -190,7 +273,7 @@
     }
 
     li.nav-item.dropdown {
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     .sec-hero-h {
@@ -320,41 +403,51 @@
     .sec-slor-p {
         font-size: 17px;
     }
+
     .sec-form-hh {
         font-size: 24px;
     }
+
     .sec-contact-form {
         width: 100%;
         margin: auto;
     }
+
     .sec-prog-wp {
         font-size: 26px;
         padding: 13px 0px;
     }
+
     .sec-bord-so {
         padding: 10px;
         margin-bottom: 20px;
         width: 100%;
     }
+
     .border-sec {
         text-align: center;
         border-right: none;
     }
+
     .sec-slo-ph {
         font-size: 22px;
     }
+
     .sec-sol-php {
         font-size: 16px;
         line-height: 25px;
     }
+
     .sec-punj-h {
         font-size: 26px;
     }
+
     .sec-punj-p {
         font-size: 17px;
         line-height: 170%;
     }
-    .loader > img {
+
+    .loader>img {
         width: 90%;
     }
 }
