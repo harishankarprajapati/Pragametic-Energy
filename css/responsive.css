@@ -135,6 +135,29 @@
 
 
 
+/* ---------------- */
+
+@media (min-width: 768px) {
+    .sec-ul-display {
+        display:block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
